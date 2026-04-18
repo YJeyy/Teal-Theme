@@ -1,0 +1,283 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Teal Theme",
+  "type": "dark",
+  "colors": {
+    "titleBar.activeBackground": "#192227",
+    "titleBar.activeForeground": "#d4d4d4",
+    "titleBar.inactiveBackground": "#192227",
+    "titleBar.inactiveForeground": "#6e7a7a",
+    "titleBar.border": "#192227",
+    "tab.activeBackground": "#263238",
+    "tab.activeForeground": "#d4d4d4",
+    "tab.inactiveBackground": "#263238",
+    "tab.inactiveForeground": "#6e7a7a",
+    "tab.border": "#263238",
+    "tab.activeBorder": "#263238",
+    "editor.background": "#263238",
+    "editor.foreground": "#d4d4d4",
+    "editor.selectionBackground": "#4EC9B033",
+    "editor.selectionForeground": "#d4d4d4",
+    "editor.findMatchBackground": "#4EC9B033",
+    "editor.findMatchHighlightBackground": "#4EC9B022",
+    "editorCursor.foreground": "#4EC9B0",
+    "editor.lineHighlightBackground": "#1e2a2f",
+    "editorWhitespace.foreground": "#3a4a4a",
+    "panel.background": "#263238",
+    "panel.border": "#1e2a2f",
+    "panelTitle.activeBorder": "#263238",
+    "panelTitle.activeForeground": "#d4d4d4",
+    "panelTitle.inactiveForeground": "#8a9a9a",
+    "sideBar.background": "#1e2a2f",
+    "sideBar.foreground": "#d4d4d4",
+    "sideBar.border": "#263238",
+    "sideBarTitle.foreground": "#d4d4d4",
+    "sideBarSectionHeader.background": "#263238",
+    "sideBarSectionHeader.foreground": "#d4d4d4",
+    "sideBarSectionHeader.border": "#263238",
+    "activityBar.background": "#263238",
+    "activityBar.foreground": "#d4d4d4",
+    "activityBar.inactiveForeground": "#6e7a7a",
+    "activityBar.border": "#1e2a2f",
+    "activityBar.activeBorder": "#263238",
+    "activityBar.activeBackground": "#1e2a2f",
+    "statusBar.background": "#263238",
+    "statusBar.foreground": "#d4d4d4",
+    "statusBar.border": "#1e2a2f",
+    "statusBar.noFolderBackground": "#263238",
+    "statusBar.debuggingBackground": "#263238",
+    "statusBar.debuggingForeground": "#d4d4d4",
+    "menubar.selectionBackground": "#4EC9B033",
+    "menubar.selectionForeground": "#d4d4d4",
+    "menu.background": "#263238",
+    "menu.foreground": "#d4d4d4",
+    "menu.selectionBackground": "#4EC9B033",
+    "menu.selectionForeground": "#d4d4d4",
+    "menu.border": "#263238",
+    "editorGroupHeader.tabsBackground": "#263238",
+    "editorGroupHeader.noTabsBackground": "#263238",
+    "terminal.background": "#263238",
+    "terminal.foreground": "#d4d4d4",
+    "terminalCursor.foreground": "#4EC9B0",
+    "terminal.ansiBlack": "#263238",
+    "terminal.ansiRed": "#f48771",
+    "terminal.ansiGreen": "#4EC9B0",
+    "terminal.ansiYellow": "#dcdcaa",
+    "terminal.ansiBlue": "#9cdcfe",
+    "terminal.ansiMagenta": "#c586c0",
+    "terminal.ansiCyan": "#4EC9B0",
+    "terminal.ansiWhite": "#d4d4d4",
+    "button.background": "#4EC9B0",
+    "button.foreground": "#263238",
+    "button.hoverBackground": "#5dd9c1",
+    "badge.background": "#4EC9B0",
+    "badge.foreground": "#263238",
+    "progressBar.background": "#4EC9B0",
+    "list.activeSelectionBackground": "#4EC9B033",
+    "list.activeSelectionForeground": "#d4d4d4",
+    "list.inactiveSelectionBackground": "#263238",
+    "list.hoverBackground": "#4EC9B022",
+    "list.highlightForeground": "#4EC9B0",
+    "editorWidget.background": "#263238",
+    "editorWidget.border": "#263238",
+    "editorSuggestWidget.background": "#263238",
+    "editorSuggestWidget.border": "#263238",
+    "editorSuggestWidget.foreground": "#d4d4d4",
+    "editorSuggestWidget.selectedBackground": "#4EC9B033",
+    "editorSuggestWidget.highlightForeground": "#4EC9B0",
+    "input.background": "#263238",
+    "input.border": "#263238",
+    "input.foreground": "#d4d4d4",
+    "input.placeholderForeground": "#6e7a7a",
+    "dropdown.background": "#1e2a2f",
+    "dropdown.border": "#263238",
+    "dropdown.foreground": "#d4d4d4",
+    "gitDecoration.addedResourceForeground": "#4EC9B0",
+    "gitDecoration.modifiedResourceForeground": "#dcdcaa",
+    "gitDecoration.deletedResourceForeground": "#f48771",
+    "gitDecoration.untrackedResourceForeground": "#4EC9B0",
+    "scrollbar.shadow": "#00000000",
+    "scrollbarSlider.background": "#192227",
+    "scrollbarSlider.hoverBackground": "#192227",
+    "scrollbarSlider.activeBackground": "#192227"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment - 注释",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#C0E48B",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keyword - 关键字 (struct, return, if, sizeof, const)",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Storage Type - 类型名 (uint32_t, int, char, void)",
+      "scope": ["storage.type"],
+      "settings": {
+        "foreground": "#C792EA"
+      }
+    },
+    {
+      "name": "Function - 函数名",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call.generic"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Macro / Define - 宏定义 (#define)",
+      "scope": [
+        "meta.preprocessor.macro",
+        "entity.name.function.macro"
+      ],
+      "settings": {
+        "foreground": "#82AAFF"
+      }
+    },
+    {
+      "name": "Preprocessor - # 符号",
+      "scope": ["punctuation.definition.directive"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Preprocessor - include 关键字",
+      "scope": ["keyword.control.import"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Preprocessor - 其他预处理 (#ifdef, #endif, #if)",
+      "scope": ["meta.preprocessor"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "String - 双引号字符串内容",
+      "scope": ["string.quoted.double", "string.quoted.single"],
+      "settings": {
+        "foreground": "#C0E48B"
+      }
+    },
+    {
+      "name": "String Quote - 双引号符号",
+      "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "String - 尖括号字符串内容 (include 路径)",
+      "scope": ["string.quoted.other.lt-gt"],
+      "settings": {
+        "foreground": "#C0E48B"
+      }
+    },
+    {
+      "name": "Angle Brackets - 尖括号符号 (< >)",
+      "scope": ["punctuation.definition.string.begin", "punctuation.definition.string.end"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Constant / Number - 数字/常量",
+      "scope": ["constant.numeric", "constant.language"],
+      "settings": {
+        "foreground": "#F78C6C"
+      }
+    },
+    {
+      "name": "Type / Class - 类型/类名",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "meta.interface",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#FFCB6B"
+      }
+    },
+    {
+      "name": "Variable - 变量名",
+      "scope": [
+        "variable",
+        "variable.parameter",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#F07178"
+      }
+    },
+    {
+      "name": "Variable Property - 属性名",
+      "scope": [
+        "variable.object.property",
+        "meta.property",
+        "support.variable.property"
+      ],
+      "settings": {
+        "foreground": "#D5DCDC"
+      }
+    },
+    {
+      "name": "Tag - 标签名",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "name": "Attribute - 属性",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+    {
+      "name": "Punctuation - 标点符号",
+      "scope": [
+        "punctuation.terminator",
+        "punctuation.separator",
+        "punctuation.definition"
+      ],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Keyword Operator - 运算符 (+, -, =, ==, !=, &&, ||, ->, .)",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    },
+    {
+      "name": "Operator - 其他运算符 (<, >, &, |, !, ~)",
+      "scope": ["keyword.operator.arithmetic", "keyword.operator.comparison", "keyword.operator.logical", "keyword.operator.bitwise"],
+      "settings": {
+        "foreground": "#89DDFF"
+      }
+    }
+  ]
+}

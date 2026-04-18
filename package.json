@@ -1,0 +1,22 @@
+{
+  "name": "teal-theme",
+  "displayName": "Teal Theme",
+  "description": "A custom Teal-themed color scheme for VS Code",
+  "version": "0.0.1",
+  "publisher": "YJey",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Teal Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/teal-theme.json"
+      }
+    ]
+  },
+  "activationEvents": [],
+  "main": "./extension.js"
+}
